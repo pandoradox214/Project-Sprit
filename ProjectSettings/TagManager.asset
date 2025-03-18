@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Terrain
+  - P1
+  - P2
+  - Background
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Frame1
+    uniqueID: 2578417617
+    locked: 0
+  - name: Background
+    uniqueID: 1442953361
+    locked: 0
+  - name: BackgroundItems
+    uniqueID: 2514833015
+    locked: 0
+  - name: Terrain
+    uniqueID: 3172714001
+    locked: 0
+  - name: Character1
+    uniqueID: 2130461547
+    locked: 0
+  - name: Projectile
+    uniqueID: 3834435359
+    locked: 0
+  - name: LineRenderer
+    uniqueID: 454641759
+    locked: 0

@@ -1,0 +1,576 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1683872744754055, "dur":15415, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683872744769476, "dur":151, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1683872744769673, "dur":24, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1683872744769697, "dur":303, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1683872744770017, "dur":517, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683872744770534, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683872746106232, "dur":211, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683872746106443, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683872746106450, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683872746106451, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683872746106457, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683872746106458, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683872746106462, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683872746106463, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683872746106467, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683872746106468, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683872746106472, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683872746106473, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683872746106477, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683872746106478, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683872746106482, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683872746106483, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683872746106486, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683872746106487, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683872746106491, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683872746106492, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683872746106495, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683872746106497, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683872746106500, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683872746106502, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683872746106505, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683872746106514, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683872746106534, "dur":1731, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1683872744770309, "dur":230, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683872744770540, "dur":1394, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683872744771940, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1683872744771944, "dur":169, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683872744772115, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1683872744772118, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683872744774666, "dur":6703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1683872744781373, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1683872744781402, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683872744781623, "dur":25361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1683872744806998, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1683872744807024, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683872744807029, "dur":47588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1683872744854630, "dur":447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits.exe" }}
+,{ "pid":12345, "tid":1, "ts":1683872744855079, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683872744855081, "dur":2962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits.exe" }}
+,{ "pid":12345, "tid":1, "ts":1683872744858057, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683872744858078, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683872744858095, "dur":194220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683872745052336, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683872745052360, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683872745052365, "dur":91473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683872745143859, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683872745144110, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683872745144114, "dur":960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683872745145090, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683872745145111, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683872745145115, "dur":1053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683872745146182, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683872745146204, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683872745146209, "dur":108251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683872745254471, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683872745254515, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683872745254520, "dur":10809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683872745265347, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683872745265368, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683872745265378, "dur":865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683872745266262, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683872745266281, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683872745266285, "dur":886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683872745267184, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683872745267200, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683872745267204, "dur":18267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683872745285485, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683872745285501, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683872745285507, "dur":1090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683872745286612, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683872745286635, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683872745286642, "dur":81104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683872745367760, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683872745367776, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683872745367783, "dur":135923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683872745503724, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683872745503742, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683872745503746, "dur":111044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683872745614804, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1683872745614830, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683872745614834, "dur":215922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1683872745830778, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1683872745830796, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683872745830803, "dur":51369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1683872745882194, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1683872745882216, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683872745882220, "dur":2069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1683872745884306, "dur":221926, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683872744770339, "dur":208, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683872744770547, "dur":1392, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683872744771942, "dur":14689, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1683872744786635, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683872744786670, "dur":3359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1683872744790041, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1683872744790063, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683872744790077, "dur":64645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1683872744854737, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683872744854757, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683872744857253, "dur":195333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683872745052598, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683872745052618, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683872745052622, "dur":82912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683872745135563, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683872745135587, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683872745135594, "dur":179364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683872745314969, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683872745314980, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683872745314985, "dur":501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683872745315494, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683872745315504, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683872745315507, "dur":122667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683872745438259, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683872745438276, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683872745438302, "dur":65361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683872745503679, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683872745503714, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683872745503720, "dur":111390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683872745615128, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":2, "ts":1683872745615196, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683872745615199, "dur":215512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":2, "ts":1683872745830732, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":2, "ts":1683872745830757, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683872745830792, "dur":51038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":2, "ts":1683872745881845, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/level2" }}
+,{ "pid":12345, "tid":2, "ts":1683872745881858, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683872745881862, "dur":1950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/level2" }}
+,{ "pid":12345, "tid":2, "ts":1683872745883830, "dur":222389, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683872744770330, "dur":212, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683872744770542, "dur":1401, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683872744771944, "dur":24094, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1683872744796042, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683872744796050, "dur":676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1683872744796736, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1683872744796759, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683872744796763, "dur":254362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1683872745051146, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683872745051175, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683872745051183, "dur":33614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683872745084812, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683872745084831, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683872745084838, "dur":98701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683872745183555, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683872745183574, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683872745183658, "dur":723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683872745184393, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683872745184407, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683872745184412, "dur":19555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683872745203986, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683872745204011, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683872745204019, "dur":78220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683872745282252, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683872745282270, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683872745282275, "dur":28137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683872745310424, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683872745310439, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683872745310443, "dur":127716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683872745438172, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683872745438187, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683872745438191, "dur":63938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683872745502149, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683872745502165, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683872745502170, "dur":112597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683872745614784, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1683872745614805, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683872745614820, "dur":123007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1683872745737840, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":3, "ts":1683872745737854, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683872745737859, "dur":142161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":3, "ts":1683872745880040, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/level4" }}
+,{ "pid":12345, "tid":3, "ts":1683872745880062, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683872745880070, "dur":3758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/level4" }}
+,{ "pid":12345, "tid":3, "ts":1683872745883845, "dur":222372, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683872744770363, "dur":191, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683872744770554, "dur":1394, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683872744771949, "dur":512, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1683872744772464, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683872744774679, "dur":276428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1683872745051139, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683872745051177, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683872745051183, "dur":128617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683872745179816, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683872745179832, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683872745179840, "dur":14869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683872745194723, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683872745194748, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683872745194755, "dur":1629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683872745196395, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683872745196410, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683872745196414, "dur":31562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683872745227988, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683872745228000, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683872745228005, "dur":5364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683872745233389, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683872745233408, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683872745233445, "dur":755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683872745234213, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683872745234230, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683872745234236, "dur":45744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683872745279999, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683872745280049, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683872745280059, "dur":156866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683872745436939, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683872745436952, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683872745436955, "dur":14147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683872745451115, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683872745451128, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683872745451135, "dur":162518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683872745613671, "dur":398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683872745614073, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683872745614079, "dur":1449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683872745615543, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":4, "ts":1683872745615561, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683872745615565, "dur":213415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":4, "ts":1683872745829008, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1683872745829041, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683872745829049, "dur":50982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1683872745880047, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/level3" }}
+,{ "pid":12345, "tid":4, "ts":1683872745880061, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683872745880070, "dur":4102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/level3" }}
+,{ "pid":12345, "tid":4, "ts":1683872745884190, "dur":222033, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683872744770358, "dur":193, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683872744770551, "dur":1385, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683872744771941, "dur":24096, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1683872744796043, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683872744796050, "dur":659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1683872744796722, "dur":57007, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1683872744853734, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683872744853745, "dur":1093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1683872744854852, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683872744854871, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683872744857202, "dur":195109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683872745052326, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683872745052353, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683872745052359, "dur":32435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683872745084815, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683872745084835, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683872745084863, "dur":56777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683872745141655, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683872745141675, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683872745141680, "dur":2144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683872745143838, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683872745143863, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683872745143871, "dur":860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683872745144743, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683872745144766, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683872745144770, "dur":774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683872745145554, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683872745145568, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683872745145572, "dur":945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683872745146529, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683872745146547, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683872745146552, "dur":74904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683872745221469, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683872745221484, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683872745221490, "dur":25706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683872745247224, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683872745247263, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683872745247275, "dur":1185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683872745248475, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683872745248496, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683872745248504, "dur":34028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683872745282543, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683872745282561, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683872745282565, "dur":666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683872745283242, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683872745283259, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683872745283263, "dur":153398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683872745436684, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683872745436707, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683872745436717, "dur":1738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683872745438462, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683872745438478, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683872745438482, "dur":65217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683872745503713, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683872745503730, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683872745503734, "dur":111448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683872745615194, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1683872745615222, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683872745615235, "dur":215571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1683872745830821, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1683872745830922, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683872745830927, "dur":50993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1683872745881944, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1683872745881963, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683872745881967, "dur":5910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1683872745887892, "dur":218328, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683872744770393, "dur":165, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683872744770558, "dur":1380, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683872744771941, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1683872744771989, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683872744774701, "dur":34283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1683872744808999, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1683872744809034, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683872744809039, "dur":104088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1683872744913140, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683872744913161, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683872744913166, "dur":139493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683872745052678, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683872745052700, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683872745052705, "dur":91191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683872745143920, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683872745143938, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683872745143943, "dur":109373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683872745253335, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683872745253447, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683872745253454, "dur":942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683872745254407, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683872745254422, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683872745254428, "dur":49034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683872745303482, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683872745303529, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683872745303537, "dur":21660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683872745325209, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683872745325220, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683872745325225, "dur":1050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683872745326283, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683872745326303, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683872745326324, "dur":32664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683872745359000, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683872745359014, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683872745359018, "dur":79360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683872745438390, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683872745438405, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683872745438409, "dur":174794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683872745613225, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683872745613258, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683872745613266, "dur":1928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683872745615209, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":6, "ts":1683872745615239, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683872745615243, "dur":215482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":6, "ts":1683872745830741, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1683872745830785, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683872745830790, "dur":51112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1683872745881921, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1683872745881943, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683872745881947, "dur":2145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1683872745884106, "dur":222108, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683872744770406, "dur":155, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683872744770561, "dur":1375, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683872744771941, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1683872744772021, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683872744779818, "dur":74085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1683872744853916, "dur":244902, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1683872745098823, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683872745098829, "dur":1391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1683872745100238, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683872745100263, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683872745100270, "dur":76150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683872745176437, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683872745176458, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683872745176466, "dur":89357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683872745265843, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683872745265861, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683872745265866, "dur":111839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683872745377723, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683872745377845, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683872745377853, "dur":861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683872745378725, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683872745378878, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683872745378884, "dur":616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683872745379541, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683872745379673, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683872745379678, "dur":572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683872745380260, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683872745380344, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683872745380348, "dur":508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683872745380865, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683872745380969, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683872745380974, "dur":700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683872745381684, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683872745381783, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683872745381788, "dur":519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683872745382316, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683872745382329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683872745382333, "dur":686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683872745383032, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683872745383046, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683872745383051, "dur":55093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683872745438158, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683872745438176, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683872745438180, "dur":13619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683872745451812, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683872745451833, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683872745451837, "dur":163057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683872745614961, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":7, "ts":1683872745614982, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683872745614985, "dur":216150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":7, "ts":1683872745831148, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1683872745831162, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683872745831165, "dur":53241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1683872745884457, "dur":221759, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683872744770426, "dur":138, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683872744770564, "dur":1378, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683872744771943, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1683872744772025, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683872744774841, "dur":79043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1683872744853902, "dur":1066983, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683872745920890, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683872745920928, "dur":2641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683872745923584, "dur":182634, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683872744770444, "dur":123, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683872744770567, "dur":1377, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683872744771945, "dur":379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1683872744772327, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683872744774687, "dur":79011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1683872744853721, "dur":251362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683872745105087, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683872745105260, "dur":943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683872745106216, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683872745106228, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683872745106232, "dur":165543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683872745271793, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683872745271810, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683872745271818, "dur":61537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683872745333365, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683872745333444, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683872745333449, "dur":454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683872745333910, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683872745334119, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683872745334122, "dur":534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683872745334663, "dur":361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683872745335026, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683872745335029, "dur":776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683872745335812, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683872745335823, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683872745335826, "dur":433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683872745336266, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683872745336385, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683872745336388, "dur":510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683872745336904, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683872745337130, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683872745337133, "dur":590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683872745337730, "dur":383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683872745338115, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683872745338118, "dur":753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683872745338879, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683872745338942, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683872745338945, "dur":400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683872745339352, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683872745339364, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683872745339368, "dur":403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683872745339777, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683872745339977, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683872745339980, "dur":978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683872745340964, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683872745340974, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683872745340977, "dur":97339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683872745438330, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683872745438353, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683872745438357, "dur":65357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683872745503730, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683872745503747, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683872745503751, "dur":112875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683872745616635, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":9, "ts":1683872745616649, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683872745616652, "dur":214273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":9, "ts":1683872745830937, "dur":996, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":9, "ts":1683872745831937, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683872745831944, "dur":50943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":9, "ts":1683872745882952, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":9, "ts":1683872745882975, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683872745883004, "dur":1469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":9, "ts":1683872745884484, "dur":221747, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683872744770460, "dur":110, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683872744770570, "dur":1375, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683872744771945, "dur":14685, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1683872744786635, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683872744786666, "dur":3315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1683872744789998, "dur":24885, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1683872744814889, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683872744814897, "dur":39779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1683872744854689, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":10, "ts":1683872744854718, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683872744854871, "dur":197824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":10, "ts":1683872745052718, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683872745052740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683872745052745, "dur":91076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683872745143838, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683872745143863, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683872745143871, "dur":1933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683872745145823, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683872745145837, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683872745145841, "dur":726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683872745146582, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683872745146599, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683872745146603, "dur":118928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683872745265545, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683872745265569, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683872745265575, "dur":44757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683872745310347, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683872745310361, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683872745310373, "dur":1628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683872745312016, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683872745312038, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683872745312043, "dur":124780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683872745436836, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683872745436854, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683872745436859, "dur":14239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683872745451114, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683872745451128, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683872745451135, "dur":162691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683872745613850, "dur":238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683872745614091, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683872745614095, "dur":1469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683872745615579, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1683872745615594, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683872745615598, "dur":215527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1683872745831156, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/resources.assets" }}
+,{ "pid":12345, "tid":10, "ts":1683872745831176, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683872745831180, "dur":52160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/resources.assets" }}
+,{ "pid":12345, "tid":10, "ts":1683872745883359, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/boot.config" }}
+,{ "pid":12345, "tid":10, "ts":1683872745883484, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683872745883489, "dur":1018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/boot.config" }}
+,{ "pid":12345, "tid":10, "ts":1683872745884520, "dur":221702, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683872744770482, "dur":91, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683872744770573, "dur":1368, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683872744771942, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1683872744772017, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683872744774694, "dur":276424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1683872745051148, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683872745051182, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683872745051190, "dur":37545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683872745088745, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683872745088759, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683872745088764, "dur":52868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683872745141650, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683872745141672, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683872745141680, "dur":107089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683872745248782, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683872745248804, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683872745248809, "dur":49529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683872745298353, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683872745298381, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683872745298390, "dur":60563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683872745358974, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683872745358995, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683872745359003, "dur":78890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683872745437909, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683872745437926, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683872745437931, "dur":57585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683872745495536, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683872745495550, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683872745495556, "dur":118383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683872745613960, "dur":9918, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683872745623882, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683872745738540, "dur":906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683872745739467, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1683872745739484, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683872745739491, "dur":142407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1683872745881915, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/Colliding Spirits_Data/level1" }}
+,{ "pid":12345, "tid":11, "ts":1683872745881932, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683872745881936, "dur":2445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/Colliding Spirits_Data/level1" }}
+,{ "pid":12345, "tid":11, "ts":1683872745884394, "dur":221821, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683872744770500, "dur":76, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683872744770577, "dur":1358, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683872744771941, "dur":36383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":12, "ts":1683872744808328, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683872744808629, "dur":45267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":12, "ts":1683872744853910, "dur":1219459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/game/protype1/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683872746073373, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683872746073379, "dur":32785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/game/protype1/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683872746106185, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":12, "ts":1683872746106188, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683872746109218, "dur":1432, "ph":"X", "name": "ProfilerWriteOutput" }
+,
